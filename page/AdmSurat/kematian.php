@@ -224,7 +224,7 @@ if (isset($_POST['update'])) {
     		isiTabel();
     		function pop(id)
     		{ 
-		        $('.modal-body').html("<embed  src='Report/kematian.php?id="+id+"' width='100%' height='600px' ></embed>");  
+		        $('.modal-body').html("<embed  src='Report/kematian_test.php?id="+id+"' width='100%' height='600px' ></embed>");  
 		        $('.modal-title').html('Cetak Surat');  
 		        $('#empModal').modal('show');  
     		}
